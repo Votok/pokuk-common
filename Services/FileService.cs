@@ -71,7 +71,7 @@ namespace pokuk_common.services
         {
             var friendlyNameFile = diEvent.GetFiles("*.txt").FirstOrDefault();
 
-            if (!friendlyNameFile.Exists)
+            if (friendlyNameFile == null)
                 throw new Exception("Missing txt file with friendly name for: " + diEvent.FullName);
 
             var galleryEvent = new GalleryEvent(galleryYear.Year.ToString())

@@ -3,7 +3,7 @@
 ###################
 *.com
 *.class
-##### *.dll
+ *.dll
 !/bin/*/*.dll
 
 
@@ -26,7 +26,7 @@ _UpgradeReport_Files/
 ###############
 # Directories #
 ###############
-##### bin/
+bin/
 obj/
 TestResults/
 ###################
