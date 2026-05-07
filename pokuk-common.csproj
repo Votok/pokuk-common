@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <!-- Bump library and package version -->
+    <Version>2.0.0</Version>
+    <!-- AssemblyVersion is used by binding redirects; keep 4-part -->
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <!-- File version shown in file properties -->
+    <FileVersion>2.0.0.0</FileVersion>
+    <!-- Informational version (often SemVer with metadata) -->
+    <InformationalVersion>2.0.0</InformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>
